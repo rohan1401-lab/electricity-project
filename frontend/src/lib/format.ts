@@ -1,8 +1,8 @@
-/** USD currency formatter, 2 decimals. */
+/** GBP currency formatter, 2 decimals. */
 export const formatUsd = (n: number) =>
-  new Intl.NumberFormat("en-US", {
+  new Intl.NumberFormat("en-GB", {
     style: "currency",
-    currency: "USD",
+    currency: "GBP",
     minimumFractionDigits: 2,
     maximumFractionDigits: 2,
   }).format(n);

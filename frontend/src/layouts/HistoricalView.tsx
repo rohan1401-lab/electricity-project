@@ -108,7 +108,7 @@ export function HistoricalView() {
           variant="highlighted"
           label="Cumulative Savings"
           value={`$${cumSavingsUsd.toFixed(2)}`}
-          suffix="USD · 30d"
+          suffix="GBP · 30d"
           icon={
             <TrendingUp
               size={16}

@@ -63,12 +63,12 @@ export function OverviewPage() {
         <KpiTile
           label="Today's Forecast Cost"
           value={kpis ? formatUsd(kpis.todaysForecastCostUsd) : "—"}
-          suffix="USD"
+          suffix="GBP"
         />
         <KpiTile
           label="Baseline Cost"
           value={kpis ? formatUsd(kpis.baselineCostUsd) : "—"}
-          suffix="USD"
+          suffix="GBP"
         />
         <KpiTile
           label="Savings %"

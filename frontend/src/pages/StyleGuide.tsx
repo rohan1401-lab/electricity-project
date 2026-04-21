@@ -144,7 +144,7 @@ export function StyleGuidePage() {
       {/* KPI tiles */}
       <Section title="KPI tiles">
         <div className="flex flex-wrap gap-[var(--space-4)]">
-          <KpiTile label="Today's Forecast Cost" value="$14.20" suffix="USD" />
+          <KpiTile label="Today's Forecast Cost" value="£14.20" suffix="GBP" />
           <KpiTile
             label="Savings %"
             value="+23.2%"

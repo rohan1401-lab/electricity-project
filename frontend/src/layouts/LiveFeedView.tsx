@@ -40,7 +40,7 @@ const SEED_EVENTS: Array<Omit<FeedEvent, "id" | "timestamp">> = [
     source: "SCHEDULER",
     severity: "success",
     message: "MILP solver returned OPTIMAL (82 ms)",
-    detail: "5 loads scheduled · $3.42/day optimised",
+    detail: "5 loads scheduled · £3.42/day optimised",
   },
   {
     source: "GRID",
@@ -58,13 +58,13 @@ const SEED_EVENTS: Array<Omit<FeedEvent, "id" | "timestamp">> = [
     source: "TARIFF",
     severity: "info",
     message: "Cheap window detected · 02:00 → 06:00",
-    detail: "$0.05/kWh · 4h contiguous",
+    detail: "£0.05/kWh · 4h contiguous",
   },
   {
     source: "SCHEDULER",
     severity: "success",
     message: "Dishwasher queued · start 03:00",
-    detail: "OFF_PEAK · $0.08 est.",
+    detail: "OFF_PEAK · £0.08 est.",
   },
   {
     source: "FORECAST",

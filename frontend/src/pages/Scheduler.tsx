@@ -56,7 +56,7 @@ export function SchedulerPage() {
         <KpiTile
           label="Optimised Cost"
           value={`$${summary.optimizedCostUsd.toFixed(2)}`}
-          suffix="USD / day"
+          suffix="GBP / day"
           icon={
             <DollarSign
               size={16}
@@ -68,7 +68,7 @@ export function SchedulerPage() {
         <KpiTile
           label="Baseline Cost"
           value={`$${summary.baselineCostUsd.toFixed(2)}`}
-          suffix="USD / day"
+          suffix="GBP / day"
         />
         <KpiTile
           label="Savings %"

@@ -201,7 +201,7 @@ function ProfileBody({ user }: { user: Props["user"] }) {
       <div className="grid grid-cols-2 gap-[var(--space-4)]">
         <StatCard label="Role" value={user.role} icon={ShieldCheck} />
         <StatCard label="Member Since" value="Oct 2025" icon={Calendar} />
-        <StatCard label="Primary Home" value="Konstanz · DE" icon={MapPin} />
+        <StatCard label="Primary Home" value="Ilford · UK" icon={MapPin} />
         <StatCard label="Tariff" value="London TOU · 3-Tier" icon={Zap} />
       </div>
 
@@ -209,7 +209,7 @@ function ProfileBody({ user }: { user: Props["user"] }) {
         <div className="label-mono mb-2">Lifetime Savings</div>
         <div className="flex items-baseline gap-2">
           <span className="font-mono font-bold text-[length:var(--fs-30)] text-[var(--color-accent-primary)] tabular-nums">
-            $1,247.83
+            £1,247.83
           </span>
           <span className="font-mono text-[length:var(--fs-12)] text-[var(--color-text-muted)]">
             across 184 scheduling runs
@@ -431,7 +431,7 @@ const NOTIFICATIONS_SEED: NotificationItem[] = [
   {
     id: "sched-tonight",
     title: "Schedule your EV charger tonight",
-    body: "Tomorrow's cheap window starts 02:00 – 06:00 at $0.05/kWh. Queue a 4h run now to save ~$1.18.",
+    body: "Tomorrow's cheap window starts 02:00 – 06:00 at £0.05/kWh. Queue a 4h run now to save ~£1.18.",
     time: "just now",
     tone: "accent",
     icon: BatteryCharging,
@@ -457,7 +457,7 @@ const NOTIFICATIONS_SEED: NotificationItem[] = [
   },
   {
     id: "savings",
-    title: "Yesterday's savings: $3.42",
+    title: "Yesterday's savings: £3.42",
     body: "MILP scheduler achieved 28.9% cost reduction vs. your baseline routine.",
     time: "8 hours ago",
     tone: "accent",

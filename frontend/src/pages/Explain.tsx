@@ -379,7 +379,7 @@ const NARRATIVES: Array<{ headline: string; body: string; highlight: string }> =
   {
     headline: "EV charging moved to 02:00 – 06:00",
     body: "Your home's overnight demand drops 38% every night — the model saw that in the lag_24h feature — and the off-peak band lasts 5 hours, which covers the full 28 kWh your car needs. Shifting the charge saved",
-    highlight: "$1.18",
+    highlight: "£1.18",
   },
   {
     headline: "Dishwasher delayed until 03:00",
