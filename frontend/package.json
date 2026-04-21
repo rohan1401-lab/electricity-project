@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "tokens": "node scripts/generate-tokens.mjs",
-    "predev": "npm run tokens",
+    "predev": "npm run tokens || true",
     "prebuild": "npm run tokens",
     "dev": "vite",
     "build": "tsc -b && vite build",
