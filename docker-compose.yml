@@ -4,8 +4,8 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ./data:/app/data
-      - ./models:/app/models
+      - ./data:/data
+      - ./models:/models
 
   frontend:
     build: ./frontend
@@ -13,5 +13,7 @@ services:
       - "5174:5174"
     environment:
       - VITE_API_URL=http://backend:8000
+    volumes:
+      - ./design:/app/design
     depends_on:
       - backend
