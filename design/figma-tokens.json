@@ -1,0 +1,115 @@
+{
+  "$meta": {
+    "source": "extracted from Figma frame 1:479 (Overview page) — file energy-dashboard (FkrjFXXBN8EMSwKrEJNrSU)",
+    "extractedAt": "2026-04-09",
+    "note": "Figma file had zero defined variables (get_variable_defs returned {}). These tokens were extracted from the generated code's raw hex/spacing values with semantic names assigned. Every value is traceable to the source design.",
+    "theme": "dark-only, cyberpunk ops-center aesthetic"
+  },
+  "color": {
+    "background": {
+      "base":      { "value": "#0a0f0a", "note": "root canvas, darkest" },
+      "elevated":  { "value": "#202820", "note": "solid elevated surface" },
+      "glass":     { "value": "rgba(21,27,21,0.7)", "note": "default glass card fill (Default_Surface)" },
+      "overlay":   { "value": "rgba(10,15,10,0.8)", "note": "modal/scrim dark overlay" }
+    },
+    "accent": {
+      "primary":   { "value": "#c0f13e", "note": "electric lime — main accent, used on active nav, primary CTA, data lines" },
+      "primaryAlt":{ "value": "#c4f542", "note": "near-duplicate accent variation" },
+      "pressed":   { "value": "#9ac805", "note": "darker accent for pressed/active states" },
+      "dark":      { "value": "#425700", "note": "deep accent for borders on accent surfaces" },
+      "glow5":     { "value": "rgba(192,241,62,0.05)", "note": "subtle accent wash" },
+      "glow10":    { "value": "rgba(192,241,62,0.1)",  "note": "accent wash" },
+      "glow20":    { "value": "rgba(192,241,62,0.2)",  "note": "accent glow" },
+      "glow30":    { "value": "rgba(192,241,62,0.3)",  "note": "accent glow strong" },
+      "glow40":    { "value": "rgba(192,241,62,0.4)",  "note": "accent edge" },
+      "halo":      { "value": "rgba(180,255,120,0.08)","note": "bright lime halo (Highlighted_Focus)" }
+    },
+    "text": {
+      "primary":   { "value": "#edf2e9", "note": "primary readable text on dark" },
+      "secondary": { "value": "#d9e6d8", "note": "secondary text" },
+      "muted":     { "value": "#a7ada4", "note": "muted / caption text, label chips" },
+      "disabled":  { "value": "#6b7280", "note": "disabled state" },
+      "onAccent":  { "value": "#0a0f0a", "note": "text on electric-lime accent surfaces" }
+    },
+    "status": {
+      "warning":      { "value": "#fce34b", "note": "yellow warning (peak-hour alert)" },
+      "warningSoft":  { "value": "rgba(252,227,75,0.1)" },
+      "warningEdge":  { "value": "rgba(252,227,75,0.3)" },
+      "danger":       { "value": "#b92902", "note": "red danger (EMERGENCY_SHUTDOWN)" },
+      "dangerFg":     { "value": "#ffd2c8", "note": "text/icon on danger" }
+    },
+    "muted": {
+      "line":    { "value": "rgba(167,173,164,0.4)", "note": "divider lines" },
+      "lineAlt": { "value": "rgba(167,173,164,0.6)" },
+      "soft":    { "value": "rgba(68,73,67,0.1)" },
+      "softAlt": { "value": "rgba(68,73,67,0.2)" },
+      "ghost":   { "value": "rgba(217,230,216,0.6)" }
+    }
+  },
+  "radius": {
+    "xs":   { "value": "2px" },
+    "md":   { "value": "8px",    "note": "pills / chip radius in several places" },
+    "lg":   { "value": "12px",   "note": "default card radius (most common)" },
+    "pill": { "value": "9999px", "note": "fully rounded (tags, badges, arc gauge ends)" }
+  },
+  "spacing": {
+    "0_5": { "value": "2px" },
+    "1":   { "value": "4px" },
+    "1_5": { "value": "6px" },
+    "2":   { "value": "8px" },
+    "3":   { "value": "12px" },
+    "4":   { "value": "16px",  "note": "default gap — most common spacing value" },
+    "5":   { "value": "20px" },
+    "6":   { "value": "24px" },
+    "6_5": { "value": "25px",  "note": "card padding observed in KPI tiles" },
+    "8":   { "value": "32px" },
+    "8_5": { "value": "33px" },
+    "12":  { "value": "48px" },
+    "24":  { "value": "96px" },
+    "sidebar": { "value": "240px", "note": "fixed left sidebar width" }
+  },
+  "fontFamily": {
+    "display": { "value": ["Space Grotesk", "system-ui", "sans-serif"], "note": "page titles, card headers, big numbers" },
+    "body":    { "value": ["Inter", "system-ui", "sans-serif"],          "note": "body copy, descriptions" },
+    "mono":    { "value": ["JetBrains Mono", "ui-monospace", "monospace"], "note": "uppercase labels, numeric displays (COUNTDOWN 04:22:15), section headers (03_TEMPORAL_DYNAMICS)" }
+  },
+  "fontSize": {
+    "9":  { "value": "13px", "note": "BUMPED 2x → 13 for readability" },
+    "10": { "value": "14px", "note": "BUMPED 2x → 14 — tiny uppercase labels" },
+    "12": { "value": "16px", "note": "BUMPED 2x → 16 — default uppercase label" },
+    "14": { "value": "18px", "note": "BUMPED 2x → 18" },
+    "16": { "value": "20px", "note": "BUMPED 2x → 20 — body / card title" },
+    "18": { "value": "23px", "note": "BUMPED 2x → 23" },
+    "20": { "value": "26px", "note": "BUMPED 2x → 26" },
+    "24": { "value": "34px", "note": "BUMPED 2x → 34 — section headers" },
+    "30": { "value": "42px", "note": "BUMPED 2x → 42 — KPI value display" },
+    "36": { "value": "52px", "note": "BUMPED 2x → 52 — hero numeric display" }
+  },
+  "fontWeight": {
+    "normal":    { "value": 400 },
+    "medium":    { "value": 500 },
+    "semibold":  { "value": 600 },
+    "bold":      { "value": 700 }
+  },
+  "letterSpacing": {
+    "tightest": { "value": "-1.8px" },
+    "tighter":  { "value": "-0.6px" },
+    "tight":    { "value": "-0.5px" },
+    "snug":     { "value": "-0.4px" },
+    "normal":   { "value": "0" },
+    "wide":     { "value": "1px"  },
+    "wider":    { "value": "1.2px" },
+    "widest":   { "value": "1.8px", "note": "uppercase mono labels" }
+  },
+  "backdropBlur": {
+    "md": { "value": "6px",  "note": "glass card default (Default_Surface)" },
+    "lg": { "value": "12px", "note": "stronger glass" }
+  },
+  "shell": {
+    "sidebarWidth":   { "value": "272px" },
+    "sidebarItemPad": { "value": "16px" },
+    "contentMaxWidth":{ "value": "1280px", "note": "Figma frame width" },
+    "kpiTileWidth":   { "value": "226px" },
+    "kpiTileHeight":  { "value": "152px" }
+  }
+}
