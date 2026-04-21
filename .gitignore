@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+frontend/src/styles/tokens.css
+frontend/src/styles/tokens.generated.ts
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- Playwright ---
+.playwright-mcp/
+
+# --- Large / generated artefacts (uncomment to exclude) ---
+# data/processed/
+# models/
+# outputs/
+
+# --- Database ---
+*.db
+backend/hems.db
+
+# --- Secrets ---
+.env
+.env.local
+*.key
